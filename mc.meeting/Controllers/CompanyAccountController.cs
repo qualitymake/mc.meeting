@@ -13,7 +13,7 @@ namespace mc.meeting.Controllers
     [ApiController]
     public class CompanyAccountController : ControllerBase
     {
-        [HttpGet]
+        [HttpPut]
         public bool UpdateCompanyAccount(CompanyAccountBE companyAccount)
         {
             try
