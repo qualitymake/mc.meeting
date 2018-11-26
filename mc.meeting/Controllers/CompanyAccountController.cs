@@ -11,7 +11,7 @@ namespace mc.meeting.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AppAdminController : ControllerBase
+    public class CompanyAccountController : ControllerBase
     {
         [HttpGet]
         public bool UpdateCompanyAccount(CompanyAccountBE companyAccount)
