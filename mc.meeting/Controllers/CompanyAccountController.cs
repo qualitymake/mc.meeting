@@ -9,12 +9,12 @@ using mc.meeting.DAL;
 
 namespace mc.meeting.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class CompanyAccountController : ControllerBase
     {
         [HttpPut]
-        public bool UpdateCompanyAccount(CompanyAccountBE companyAccount)
+        public bool Update(CompanyAccountBE companyAccount)
         {
             try
             {
